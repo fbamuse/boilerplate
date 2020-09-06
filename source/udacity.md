@@ -1,8 +1,7 @@
 
 #Background
 
-![](2020-09-05-20-20-07.png)
-
+<img src=".2020-09-05-20-20-07.png">
 The music distribution service, which pioneered subscription services, has become a part of our lives and has changed the way we enjoy music.
 Since various providers compete, you can easily use one-click joining and leaving, free trial, service promotion, etc.,
 Users can choose the service that suits their taste and style.
@@ -37,7 +36,7 @@ Note:The data contains personal information and can only be accessed by Udacity 
 ## Data
 
 Data contain following columns
-<img src="2020-09-05-20-28-37.png">
+<img src=".2020-09-05-20-28-37.png">
 ![](2020-09-05-20-28-37.png)
 
 
