@@ -1,7 +1,7 @@
 
 #Background
 
-![aaas](2020-09-05-20-20-07.png)
+![aaas](/spokify/2020-09-05-20-20-07.png)
 
 The music distribution service, which pioneered subscription services, has become a part of our lives and has changed the way we enjoy music.
 Since various providers compete, you can easily use one-click joining and leaving, free trial, service promotion, etc.,
@@ -37,7 +37,7 @@ Note:The data contains personal information and can only be accessed by Udacity 
 ## Data
 
 Data contain following columns
-![](2020-09-05-20-28-37.png)
+![](spokify/2020-09-05-20-28-37.png)
 
 
 column"page" show fotprint.
