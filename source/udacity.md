@@ -37,13 +37,14 @@ Note:The data contains personal information and can only be accessed by Udacity 
 ## Data
 
 Data contain following columns
+<img src="2020-09-05-20-28-37.png">
 ![](2020-09-05-20-28-37.png)
 
 
 column"page" show fotprint.
 
 ![](2020-09-05-20-31-31.png)
-
+<img src="2020-09-05-20-31-31.png">
 ## Define Churn(Define Objective variable)
 
 The objective variable on the classification model is defined as the history of access 
