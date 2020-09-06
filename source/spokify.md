@@ -88,7 +88,7 @@ I paid attention to the following.
 
 ![](spokify/2020-09-05-20-55-52.png)
 
-![](2020-09-06-20-49-30.png)
+![](spokify/2020-09-06-20-49-30.png)
 
 ![](spokify/2020-09-05-20-56-37.png)
 
