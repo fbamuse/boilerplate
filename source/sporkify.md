@@ -130,10 +130,10 @@ This method can also be expected to be sparse so that the classifier can extract
 
 ### Model improvement
 
-**Model tune**
+**Model tune**  
 A grid-based search for maxDepth, maxBins, and maxIter parameters for a Tree-based model. The parameter with the best score was adopted.
 
-**robustness**
+**robustness**  
 After the train and test data were divided into 7:3, the train data was cross-validated five times and then the average score was adopted. This is an effective means for improving robustness when the amount of data is relatively small.
 
 
