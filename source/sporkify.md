@@ -1,7 +1,7 @@
 
 # To be the best music service for you
 
-![](spokify/2020-09-05-20-20-07.png)
+![](sporkify/2020-09-05-20-20-07.png)
 
 The music distribution service, which pioneered subscription services, has become a part of our lives and has changed the way we enjoy music.
 Since various providers compete, you can easily use one-click joining and leaving, free trial, service promotion, etc.,
@@ -37,12 +37,12 @@ Note:The data contains personal information and can only be accessed by Udacity 
 
 Data have following columns   
 
-![](spokify/2020-09-05-20-28-37.png)
+![](sporkify/2020-09-05-20-28-37.png)
 
 
 column"page" show fotprint.  
 
-![](spokify/2020-09-05-20-31-31.png)
+![](sporkify/2020-09-05-20-31-31.png)
 
 ## Define Churn(Define Objective variable)
 
@@ -84,15 +84,15 @@ I paid attention to the following.
 
 
 **Some examples**
-![](spokify/2020-09-05-20-54-37.png)
+![](sporkify/2020-09-05-20-54-37.png)
 
-![](spokify/2020-09-05-20-55-52.png)
+![](sporkify/2020-09-05-20-55-52.png)
 
-![](spokify/2020-09-06-20-49-30.png)
+![](sporkify/2020-09-06-20-49-30.png)
 
-![](spokify/2020-09-05-20-56-37.png)
+![](sporkify/2020-09-05-20-56-37.png)
 
-![](spokify/2020-09-05-20-59-16.png)
+![](sporkify/2020-09-05-20-59-16.png)
 
 
 
@@ -106,7 +106,7 @@ You can see the correlation coefficient of each variable with Target.
 And you can also see some variables that are highly correlated.
 
 
-![](spokify/2020-09-06-20-38-00.png)
+![](sporkify/2020-09-06-20-38-00.png)
 
 
 ### Metric Definition
@@ -163,12 +163,12 @@ You can see that the following are variables that contributed to the classificat
 
 
 **GBT**  
-![](spokify/2020-09-06-20-44-51.png)
+![](sporkify/2020-09-06-20-44-51.png)
 
 
 **Random Forest**  
 
-![](spokify/2020-09-06-20-44-21.png)
+![](sporkify/2020-09-06-20-44-21.png)
 
 
 # Conlcusion
