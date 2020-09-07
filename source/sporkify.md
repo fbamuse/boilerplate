@@ -83,7 +83,7 @@ I paid attention to the following.
 -days from registration
 
 
-**Some examples**
+**Some examples**  
 ![](sporkify/2020-09-05-20-54-37.png)
 
 ![](sporkify/2020-09-05-20-55-52.png)
