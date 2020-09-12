@@ -5,15 +5,15 @@ Stack Overflow offers a community site for developers, with over 50 million uniq
 
 Let's Check out the perspectives of developers around the world
 
-Question 
-    1. What technology is crazy about developers around the world? What do you expect next?
-        1.1 What is most popular Language ?
-        1.2 What is most popular platform ?
-        1.3 What is most popular Database ?
-        1.4 What is most popular collaboration tool ?
-        1.5 What is most popular  web framework ?
-        1.6 Other technologies？
-        2. What are the factors related to salary?
+Question  
+  1. What technology is crazy about developers around the world? What do you expect next? 
+    1.1 What is most popular Language ?  
+    1.2 What is most popular platform ?  
+    1.3 What is most popular Database ?  
+    1.4 What is most popular collaboration tool ?  
+    1.5 What is most popular  web framework ?  
+    1.6 Other technologies？  
+  2. What are the factors related to salary?  
 
 # 1. What technology is crazy about developers around the world? What do you expect next?
 
@@ -117,14 +117,11 @@ Red represents the impact on the prediction value when the variable is high (plu
 - In addition, being a venture company is also a positive forecast value.  
 
 
-    It is also possible to provide information similar to Tree-based Featue Impottance.
+It is also possible to provide information similar to Tree-based Featue Impottance.
 With this information, you can see the degree of impact, but you can not confirm how much each variable will have a positive effect or a negative effect, which is the advantage of SHAP.
 ![](DS_blogpost/2020-09-12-17-13-03.png)
 
-
-
-
-#3.Conclusion
+#3. Conclusion
 
 I searched for developers from the Stack overflow survey in 2020 and 2107.
 Did you find any points that were in line with your intentions? Knowing what technologies active developers are using and what they are paying attention to in the future is useful information for those who will acquire the technology.
