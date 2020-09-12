@@ -1,4 +1,4 @@
-#　What technology is crazy about developers around the world?
+# What technology is crazy about developers around the world?
 
 Stack Overflow, which runs the developer community, announced the annual developer survey "2020 Developer Survey" on May 27th.
 Stack Overflow offers a community site for developers, with over 50 million unique visitors. The Developer Survey is the company's annual survey, and this is the 10th time this year.The survey was conducted in February 2020, with approximately 65,000 developers responding on a global basis.
@@ -75,7 +75,7 @@ This course (Udacity) deals with Flask, but there seems to be a technology that 
 ![](DS_blogpost/2020-09-12-16-51-06.png)
 ![](DS_blogpost/2020-09-12-16-51-20.png)
 
-#2. What are the factors related to salary?
+# 2. What are the factors related to salary?
 What is the income of developers around the world?
 You can't be a developer just because you like technology. You also need money, right?
 
