@@ -3,7 +3,7 @@
 Stack Overflow, which runs the developer community, announced the annual developer survey "2020 Developer Survey" on May 27th.
 Stack Overflow offers a community site for developers, with over 50 million unique visitors. The Developer Survey is the company's annual survey, and this is the 10th time this year.The survey was conducted in February 2020, with approximately 65,000 developers responding on a global basis.
 
-Let's Check out the perspectives of developers around the world
+Let's Check out the perspectives of developers around the world.
 
 Question  
   1. What technology is crazy about developers around the world? What do you expect next? 
@@ -17,12 +17,11 @@ Question
 
 # 1. What technology is crazy about developers around the world? What do you expect next?
 
-Underpinning today's digital society are undoubtedly the members of the developers who participate here.
-What technology are they using?  
+Underpinning today's digital society are undoubtedly the members of the developers who participate here. What technology are they using?  
 Also, now that technological innovation is required, what kind of technology are you focusing on next?
 
 ## What is most popular Language ?
-Python is still very popular. The library is abundant, fresh, and there is a lot of information, so I feel like I can do anything.　　
+Python is still very popular. The library is abundant, fresh, and there is a lot of information, so I feel like I can do anything.  
 However, it seems that Rust, which I often hear recently, is good. Let's try it next time. 　
 There are many languages I don't know. I haven't studied enough.
 
@@ -42,10 +41,7 @@ There are many AWS users, but there are high expectations for Google Cloud, whic
 
 ## What is most popular Database ?
 I'm not familiar with Databese. I know that MySQL and PostgreSQL are major. 
-I recently learned about the power of the Columner database.  
-This is Yandex's ClickHouse (https://clickhouse.tech/). 
-
-Very lightweight and fast. It is indispensable for handling big data.
+I recently learned about the power of the Columnar database.This is Yandex's ClickHouse (https://clickhouse.tech/). It's very light and fast. Such database is indispensable for handling big data.
 There are various databases, each of which has its advantages and disadvantages. It's difficult to decide which database to choose.
 The columnar database Cassandra is also fast, isn't it?
 there are many technologies that Database does not know. let's study...
@@ -69,7 +65,7 @@ This course (Udacity) deals with Flask, but there seems to be a technology that 
 
 
 ## Other technologies？
- TensorFlow is not popular as an AI framework, but I personally like Pytorch.  
+ TensorFlow is popular as an AI framework, but I personally like Pytorch.  
  Is Hadoop old when it comes to distributed infrastructure? Isn't Spark better?   
  There are many technologies that I do not know. let's study..
 ![](DS_blogpost/2020-09-12-16-51-06.png)
@@ -91,19 +87,19 @@ Next, we will use SHAP, an explainable AI, to see which variables contribute to 
   Categorical variables are converted to dummy variables and the data is arranged.
   now, we have 12891 rows × 1103 columns for candidate variable
 
-2. Creating a regression model
+2. Creating a regression model  
 The estimator uses LightGBM.
 Parameter tuning uses the library "Optuna", which efficiently searches for parameters by Bayesian inference.
 Actually, we use "LightGBMTuner", a package that automates parameter search based on Optuna based on the characteristics of lightGBM parameters.  
 
 3. Divide the data into 7: 3 and use them for training and testing, respectively.  
 
-4. result
+4. result  
 Plot the correlation between prediction and reality. You can see a certain correlation.
 ![](DS_blogpost/2020-09-12-17-09-54.png)
 
 
-5. find factors related to salary
+5. find factors related to salary  
 Next, we will identify the factors that influence Shap, which is one of the explainable AIs using game theory.
 Red represents the impact on the prediction value when the variable is high (plus or minus is represented by the plot on the horizontal axis. Blue represents the impact on the prediction (plus or minus) when the variable is low. ..
 
@@ -111,10 +107,10 @@ Red represents the impact on the prediction value when the variable is high (plu
 
 - In the United States, the forecast value is quite positive, and the range is wide (it shows that the range of salary is also large).
   This is influenced by the high-priced areas of Silicon Valley.
-- In addition, a wealth of engineers over 20 years have contributed to the positive forecast.  
+- Engineers over 20 years have contributed to the positive forecast.  
   On the contrary, it can be seen that the predicted value is swinging negative for young engineers who have little experience for 1 to 3 years.
-- In addition, European engineers and engineers with a master degree have a positive forecast.
-- In addition, being a venture company is also a positive forecast value.  
+- European engineers and engineers with a master degree have a positive forecast.
+- Being a venture company is also a positive forecast value.  
 
 
 It is also possible to provide information similar to Tree-based Featue Impottance.
