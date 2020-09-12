@@ -121,7 +121,7 @@ It is also possible to provide information similar to Tree-based Featue Impottan
 With this information, you can see the degree of impact, but you can not confirm how much each variable will have a positive effect or a negative effect, which is the advantage of SHAP.
 ![](DS_blogpost/2020-09-12-17-13-03.png)
 
-#3. Conclusion
+# 3. Conclusion
 
 I searched for developers from the Stack overflow survey in 2020 and 2107.
 Did you find any points that were in line with your intentions? Knowing what technologies active developers are using and what they are paying attention to in the future is useful information for those who will acquire the technology.
