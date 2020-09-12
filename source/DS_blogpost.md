@@ -26,8 +26,8 @@ Python is still very popular. The library is abundant, fresh, and there is a lot
 However, it seems that Rust, which I often hear recently, is good. Let's try it next time. 　
 There are many languages I don't know. I haven't studied enough.
 
-![](2020-09-12-16-45-02.png)
-![](2020-09-12-16-45-52.png)
+![](DS_blogpost/2020-09-12-16-45-02.png)
+![](DS_blogpost/2020-09-12-16-45-52.png)
 
 ## What is most popular platform ?
 The cloud has become widespread and Linux has become the standard.  
@@ -37,8 +37,8 @@ It's the tide of new technology.
 There are many AWS users, but there are high expectations for Google Cloud, which is strong in AI.  
 (This Notebook is also working on Google Cloud)  
 
-![](2020-09-12-16-46-57.png)
-![](2020-09-12-16-47-19.png)
+![](DS_blogpost/2020-09-12-16-46-57.png)
+![](DS_blogpost/2020-09-12-16-47-19.png)
 
 ## What is most popular Database ?
 I'm not familiar with Databese. I know that MySQL and PostgreSQL are major. 
@@ -50,30 +50,30 @@ There are various databases, each of which has its advantages and disadvantages.
 The columnar database Cassandra is also fast, isn't it?
 there are many technologies that Database does not know. let's study...
 
-![](2020-09-12-16-47-43.png)
-![](2020-09-12-16-48-05.png)
+![](DS_blogpost/2020-09-12-16-47-43.png)
+![](DS_blogpost/2020-09-12-16-48-05.png)
 
 ## What is most popular collaboration tool ?
 Stack Overflow is growing fast. (Because it's a Stack Overflow survey)  
 Github is no longer common sense.It may be the platform most frequently used by developers.
 
-![](2020-09-12-16-48-47.png)
-![](2020-09-12-16-49-01.png)
+![](DS_blogpost/2020-09-12-16-48-47.png)
+![](DS_blogpost/2020-09-12-16-49-01.png)
 
 
 ## What is most popular  web framework ?
 I'm not a web developer, so I'm not sure.   
 This course (Udacity) deals with Flask, but there seems to be a technology that is drawing more attention.
-![](2020-09-12-16-50-06.png)
-![](2020-09-12-16-50-23.png)
+![](DS_blogpost/2020-09-12-16-50-06.png)
+![](DS_blogpost/2020-09-12-16-50-23.png)
 
 
 ## Other technologies？
  TensorFlow is not popular as an AI framework, but I personally like Pytorch.  
  Is Hadoop old when it comes to distributed infrastructure? Isn't Spark better?   
  There are many technologies that I do not know. let's study..
-![](2020-09-12-16-51-06.png)
-![](2020-09-12-16-51-20.png)
+![](DS_blogpost/2020-09-12-16-51-06.png)
+![](DS_blogpost/2020-09-12-16-51-20.png)
 
 #2. What are the factors related to salary?
 What is the income of developers around the world?
@@ -86,10 +86,10 @@ First, build a prediction model with the objective variable as a "salary".
 Next, we will use SHAP, an explainable AI, to see which variables contribute to the prediction and how much.
 
 1. Creating variables  
-  Remove the "salary" and the highly correlated  "**" from the data.
+  Remove the "salary" and the highly correlated  'Respondent' and 'ExpectedSalary' from the data.
   Delete the rows that have missing values in the "salary".  
   Categorical variables are converted to dummy variables and the data is arranged.
-  now, we have *** row , ** coulumn data for candidate variable
+  now, we have 12891 rows × 1103 columns for candidate variable
 
 2. Creating a regression model
 The estimator uses LightGBM.
@@ -100,14 +100,14 @@ Actually, we use "LightGBMTuner", a package that automates parameter search base
 
 4. result
 Plot the correlation between prediction and reality. You can see a certain correlation.
-![](2020-09-12-17-09-54.png)
+![](DS_blogpost/2020-09-12-17-09-54.png)
 
 
 5. find factors related to salary
 Next, we will identify the factors that influence Shap, which is one of the explainable AIs using game theory.
 Red represents the impact on the prediction value when the variable is high (plus or minus is represented by the plot on the horizontal axis. Blue represents the impact on the prediction (plus or minus) when the variable is low. ..
 
-![](2020-09-12-17-11-07.png)
+![](DS_blogpost/2020-09-12-17-11-07.png)
 
 - In the United States, the forecast value is quite positive, and the range is wide (it shows that the range of salary is also large).
   This is influenced by the high-priced areas of Silicon Valley.
@@ -119,7 +119,7 @@ Red represents the impact on the prediction value when the variable is high (plu
 
     It is also possible to provide information similar to Tree-based Featue Impottance.
 With this information, you can see the degree of impact, but you can not confirm how much each variable will have a positive effect or a negative effect, which is the advantage of SHAP.
-![](2020-09-12-17-13-03.png)
+![](DS_blogpost/2020-09-12-17-13-03.png)
 
 
 
