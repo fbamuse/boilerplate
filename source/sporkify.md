@@ -83,7 +83,7 @@ I paid attention to the following.
 -days from registration
 
 
-**Some examples**  
+**Some examples**
 ![](sporkify/2020-09-05-20-54-37.png)
 
 ![](sporkify/2020-09-05-20-55-52.png)
@@ -130,11 +130,26 @@ This method can also be expected to be sparse so that the classifier can extract
 
 ### Model improvement
 
-**Model tune**  
-A grid-based search for maxDepth, maxBins, and maxIter parameters for a Tree-based model. The parameter with the best score was adopted.
+For generalization performance of machine learning models
 
-**robustness**  
-After the train and test data were divided into 7:3, the train data was cross-validated five times and then the average score was adopted. This is an effective means for improving robustness when the amount of data is relatively small.
+
+**Hyperparameter tuning by grid search**
+
+|GBT            | maxDepth | maxBins  | maxIter |
+|---------------|----------|----------|---------|
+|Best parameter | 2        | 10       | 5       | 
+|Search area    | 2,6      | 10,20    | 5,10    |
+
+
+
+|Rondom Forest  | maxDepth | maxBins  | numTrees|
+|---------------|----------|----------|---------|
+|Best parameter | 6        | 10       | 50      | 
+|Search area    | 2,6      | 10,20    | 5,20,50 |
+
+
+**Robustness**
+the train and test data were divided into 7:3, the train data was cross-validated five times and then the average score was adopted. This is an effective means for improving robustness when the amount of data is relatively small.
 
 
 
@@ -147,7 +162,7 @@ When conducting a campaign to Churn users, we would like to reduce the number of
 |model               | f1 score | accuracy | recall  | Precision |
 |--------------------|----------|----------|---------|-----------|
 |Logistic Regression | 0.85     | 0.85     | 0.84    | 0.85      |
-|GBTClassifier       | 0.87     | 0.87     | 0.86    | 0.87      |
+|GBTClassifier       | 0.87     | 0.89     | 0.90    | 0.89      |
 |Random forest       | 0.75     | 0.81     | 0.76    | 0.81      |
 
 
